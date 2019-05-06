@@ -17,7 +17,7 @@ public class Insert {
         PreparedStatement ps = null;
 
         try {
-            File params_file = new File("../src/main/java/roommates_database/configs/dbparams.txt");
+            File params_file = new File("/src/main/java/roommates_database/configs/dbparams.txt");
             File data_file = new File("../src/main/java/roommates_database/data/data.json");
             File desired_file = new File("../src/main/java/roommates_database/data/desired_data.json");
             Scanner sc = new Scanner(params_file);
